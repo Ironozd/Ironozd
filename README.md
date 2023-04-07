@@ -1,2 +1,1 @@
-- 👋 Hi, I’m @Ironozd
 - 👀 There are only private repositories
