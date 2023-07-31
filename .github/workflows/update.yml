@@ -1,6 +1,6 @@
 name: Update Website
 on:
- package:
+ registry_package:
     types: [updated, published]
 jobs:
   update:
