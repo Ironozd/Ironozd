@@ -1,0 +1,16 @@
+name: Update Website
+on:
+ registry_package:
+    types: [updated]
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request
+        id: request
+        uses: tyrrrz/action-http-request@v1
+        with:
+          url: http://ironoziron.com:8090/v1/update
+          method: GET
+          headers: |
+            Authorization: Bearer DAMASTERPASSWORD
