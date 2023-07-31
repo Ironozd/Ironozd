@@ -1,7 +1,7 @@
 name: Update Website
 on:
  registry_package:
-    types: [updated]
+    types: [published]
 jobs:
   update:
     runs-on: ubuntu-latest
